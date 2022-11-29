@@ -19,9 +19,24 @@ a {text-decoration: none;
 body {
     font-family: 'Roboto', sans-serif;
     /* font-family: 'Raleway', sans-serif; */
+    color: var(--minor-color);
+    background-color: var(--text-white-color);
 }
 
 li{list-style-type: none;}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
 
 
 /* 12345 */
@@ -44,7 +59,7 @@ li{list-style-type: none;}
 
 .nav_list{
     color: var(--basic-color);
-    font-weight: 600;
+    font-weight: 700;
      font-size: 16px;
      line-height: 1.5;
     letter-spacing: 0.02em;
@@ -68,12 +83,12 @@ li{list-style-type: none;}
 
 .title-hero {
     color:var(--text-white-color);
-    font-weight: 600;
+    font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+       
 }
 .btn_hero{
 
@@ -83,11 +98,13 @@ li{list-style-type: none;}
            width: 170px;
             height: 51px;
             border: currentColor;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 16px;
             line-height: 1.19;
              letter-spacing: 0.04em;
              cursor: pointer;
+            font-family: 'Roboto',
+                    sans-serif;
 
 }
 .btn_hero:hover,.btn_hero:focus{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
@@ -96,7 +113,7 @@ li{list-style-type: none;}
 .advantages_name{
     color: var(--basic-color
 );
-    font-weight: 600;
+    font-weight: 700;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
@@ -113,25 +130,27 @@ font-weight: 400;
 /* ---------------------our-job-------------- */
 .title_our_job{
     color: var(--basic-color);
-    font-weight: 600;
+    font-weight: 700;
         font-size: 36px;
         line-height: 1.11;
         letter-spacing: 0.02em;
 }
 
 /* ------------------team------------------ */
-.team{background-color: var(--portfolio-btn);}
+.team{background-color: var(--footer-text-studio);}
 .title_team{
 color: var(--basic-color);
-font-weight: 600;
+font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
 }
 
+.team_item{background-color: var(--text-white-color);}
+
 .team_names{
     color: var(--basic-color);
-        font-weight: 600;
+        font-weight: 700;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
@@ -175,11 +194,13 @@ color: var(--minor-color);
 
     /* ============================PORTFOLIO================================ */
     .btn_portfolio{ 
+        font-family: 'Roboto',
+            sans-serif;
         background-color: var(--footer-text-studio);
         color: var(--brand-button-color);
         border: 1px solid #E7E9FC;
             border-radius: 4px;
-        font-weight: 600;
+        font-weight: 700;
             font-size: 16px;
             line-height: 1.5;
             letter-spacing: 0.04em;
