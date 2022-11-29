@@ -76,15 +76,27 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         
 }
 
-.nav_list{
+.list_nav{display: flex;
+}
+
+.nav_item{
     color: var(--basic-color);
     font-weight: 700;
      font-size: 16px;
      line-height: 1.5;
     letter-spacing: 0.02em;
+    
 
 }
-.nav_list:hover,.nav_list:focus{color: var(--minor-color);}
+
+.item_list_nav{margin-right: 40px;}
+
+.item_list_nav:last-child{margin-right: 0px;}
+
+
+
+
+.nav_item:hover,.nav_item:focus{color: var(--minor-color);}
 
 .nav_list_active{color: var(--brand-button-color);}
 
@@ -107,12 +119,15 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 
 .title-hero {
-    color:var(--text-white-color);
-    font-weight: 700;
+        color:var(--text-white-color);
+         font-weight: 500;
         font-size: 56px;
         line-height: 1.07;
         text-align: center;
         letter-spacing: 0.02em;
+        width: 492px;
+        margin-left: auto;
+        margin-right: auto;
         
        
 }
@@ -190,7 +205,9 @@ flex-wrap: wrap;}
     margin-bottom: 72px;
 }
 
-.team_item{background-color: var(--text-white-color);}
+.team_item{background-color: var(--text-white-color);
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;}
 
 .team_names{
     color: var(--basic-color);
@@ -198,6 +215,8 @@ flex-wrap: wrap;}
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
+        margin-bottom: 8px;
+        text-align: center;
 
 }
 .team_specialty{
@@ -206,6 +225,7 @@ color: var(--minor-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* ----------------------FOOTER------------------ */
@@ -277,12 +297,14 @@ color: var(--minor-color);
             border-bottom-color: #F4F4FD;
             box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);}
 
-            .card_item:hover,.card_item:focus{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
+            .card_item:hover,.card_item:focus{
+                box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 
    .description_card{
     padding: 32px 16px;
-    padding-right: auto;}
+
+    }
 
     .list_button{
     display: flex;
