@@ -131,11 +131,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
        display: flex;
         margin-left: auto;
 }
-.contact_nav-item{
-       padding-top: 24px;
-       padding-bottom: 24px;
-    
-        }
+
 
  .color_contact{
         color: var(--minor-color);
@@ -145,6 +141,7 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         letter-spacing: 0.02em;
         padding-top: 24px;
          padding-bottom: 24px;
+         display: block;
         
         
     
@@ -202,6 +199,13 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 .btn_hero:hover,.btn_hero:focus{box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 .btn_hero:active{background-color:var(--btn-bgc-hero);}
 /* -----------------------advantages---------------- */
+
+.advantages_item{
+    flex-basis:calc((100%-72px)/4) ;
+    
+}
+
+
 .advantages_name{
     color: var(--basic-color);
     font-weight: 700;
@@ -217,8 +221,12 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+   
+    
 }
+
 .card_set-advantages {
+    
     display: flex;
     justify-content: space-between;
     gap: 24px;}
@@ -362,7 +370,7 @@ color: var(--minor-color);
     .card-set_portfolio{ 
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 48px 24px;
 }
 
 
