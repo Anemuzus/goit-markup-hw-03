@@ -60,9 +60,16 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
 
 /* 12345 */
 /* -----------------------HEADER-------------------------------- */
+
+.main_nav{
+       display: flex;
+       align-items: center;}
+
+
+
 .labe_web{
-    color:var(--brand-button-color);
-    font-family: 'Raleway', sans-serif;}
+        color:var(--brand-button-color);
+        font-family: 'Raleway', sans-serif;}
 
 .labe_studio{
         font-family: 'Raleway', sans-serif;
@@ -73,40 +80,80 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
         font-size: 18px;
         line-height: 1.33;
         letter-spacing: 0.03em;
+        padding-top: 24px;
+        padding-bottom: 24px;
+         
         
 }
 
-.list_nav{display: flex;
+.list_nav{
+    display: flex;
+    margin-left: 77px;
 }
 
 .nav_item{
-    color: var(--basic-color);
-    font-weight: 700;
+     display: block;
+     color: var(--basic-color);
+     font-weight: 700;
      font-size: 16px;
      line-height: 1.5;
-    letter-spacing: 0.02em;
+     letter-spacing: 0.02em;
+     padding-top: 24px;
+     padding-bottom: 24px;
+     
+    
     
 
 }
 
-.item_list_nav{margin-right: 40px;}
+.item_list_nav{
+       margin-right: 40px;
+}
 
-.item_list_nav:last-child{margin-right: 0px;}
+.item_list_nav:last-child{
+      margin-right: 0px;
+}
 
 
 
 
-.nav_item:hover,.nav_item:focus{color: var(--minor-color);}
+.nav_item:hover,.nav_item:focus{
+       color: var(--minor-color);
+}
 
-.nav_list_active{color: var(--brand-button-color);}
+.nav_list_active{
+       color: var(--brand-button-color);
+    }
+
+
+
+.contact_nav{
+       display: flex;
+        margin-left: auto;
+}
+.contact_nav-item{
+       padding-top: 24px;
+       padding-bottom: 24px;
+    
+        }
 
  .color_contact{
-    color: var(--minor-color);
-    font-weight: 400;
+        color: var(--minor-color);
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        padding-top: 24px;
+         padding-bottom: 24px;
+        
+        
+    
  }
+
+
+    .contact_nav .contact_nav-item+.contact_nav-item{margin-left: 40px;}
+
+
  .color_contact:hover,.color_contact:focus{color: var(--brand-button-color);}
 /* -------------------------------hero--------------------- */
  .hero{
